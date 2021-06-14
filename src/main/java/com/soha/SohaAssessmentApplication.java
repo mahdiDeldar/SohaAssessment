@@ -8,6 +8,5 @@ public class SohaAssessmentApplication {
 
     public static void main(String[] args){
         SpringApplication.run(SohaAssessmentApplication.class, args);
-        System.out.println("Hello World");
     }
 }

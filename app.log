@@ -1,0 +1,35 @@
+2021-06-14 17:54:18,585 INFO com.soha.SohaAssessmentApplication [main] Starting SohaAssessmentApplication using Java 1.8.0_112 on DESKTOP-3N194V6 with PID 19720 (E:\mahdi\Soha\SohaAssessment\target\classes started by HP- in E:\mahdi\Soha\SohaAssessment)
+2021-06-14 17:54:18,589 DEBUG com.soha.SohaAssessmentApplication [main] Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-14 17:54:18,589 INFO com.soha.SohaAssessmentApplication [main] No active profile set, falling back to default profiles: default
+2021-06-14 17:54:20,538 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-14 17:54:20,539 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-14 17:54:20,838 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-14 17:54:20,960 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-14 17:54:21,077 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-14 17:54:21,331 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-14 17:54:21,464 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.4.11.Final}
+2021-06-14 17:54:21,850 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-06-14 17:54:22,212 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2021-06-14 17:54:22,986 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-14 17:54:25,057 INFO com.soha.SohaAssessmentApplication [main] Started SohaAssessmentApplication in 7.261 seconds (JVM running for 11.644)
+2021-06-14 17:54:46,478 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-14 17:54:46,672 DEBUG com.soha.Controller.requestController [http-nio-8080-exec-2] Get Request From User DeveloperInfo(id=15, name=Ali, family=nazari, expert=Ruby)
+2021-06-14 17:58:02,992 INFO com.soha.SohaAssessmentApplication [main] Starting SohaAssessmentApplication using Java 1.8.0_112 on DESKTOP-3N194V6 with PID 18580 (E:\mahdi\Soha\SohaAssessment\target\classes started by HP- in E:\mahdi\Soha\SohaAssessment)
+2021-06-14 17:58:02,997 DEBUG com.soha.SohaAssessmentApplication [main] Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-14 17:58:02,997 INFO com.soha.SohaAssessmentApplication [main] No active profile set, falling back to default profiles: default
+2021-06-14 17:58:05,713 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-14 17:58:05,714 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-14 17:58:06,141 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-14 17:58:06,227 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-14 17:58:06,332 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-14 17:58:06,489 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-14 17:58:06,601 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.4.11.Final}
+2021-06-14 17:58:06,925 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-06-14 17:58:07,067 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2021-06-14 17:58:07,652 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-14 17:58:09,480 INFO com.soha.SohaAssessmentApplication [main] Started SohaAssessmentApplication in 7.264 seconds (JVM running for 9.05)
+2021-06-14 17:59:10,671 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-14 17:59:10,845 DEBUG com.soha.Controller.requestController [http-nio-8080-exec-1] Get Request From User DeveloperInfo(id=13, name=Makan, family=Taghavi, expert=Node.js)
+2021-06-14 17:59:10,846 DEBUG com.soha.Controller.requestController [http-nio-8080-exec-1] Put Object in Queue SohaDeveloper(id=13, name=Makan, family=Taghavi, expert=Node.js)
+2021-06-14 17:59:10,913 DEBUG com.soha.ServiceImpl.SohaDeveloperServiceImpl [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] Read Object from Queue SohaDeveloper(id=13, name=Makan, family=Taghavi, expert=Node.js)
+2021-06-14 17:59:10,913 DEBUG com.soha.ServiceImpl.SohaDeveloperServiceImpl [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] Save Entity to Database SohaDeveloper(id=13, name=Makan, family=Taghavi, expert=Node.js)

@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/SohaAssessment
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+  application:
+    name: SohaAssessment
+logging:
+  level:
+    org.springframework: ERROR
+    com.soha: DEBUG
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+    file: "%d %p %c{1.} [%t] %m%n"
+  file:
+    name: app.log
+#  rabbitmq:
+#    host: 127.0.0.1
+#    port: 15672
+#    username: guest
+#    password: guest
